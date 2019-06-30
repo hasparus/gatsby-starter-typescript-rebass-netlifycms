@@ -107,7 +107,7 @@ export const LayoutComponents = {
 
 export const UIComponents = {
   Button: props => (
-    <Button px={2} py={1} {...props}>
+    <Button px={2} py={1} css={{ fontFamily: "inherit" }} {...props}>
       {props.children}
     </Button>
   ),
