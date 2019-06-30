@@ -66,7 +66,7 @@ const CascadeTheme = styled.div`
     margin: 0;
     color: var(--yellow);
 
-    font-family: "Roboto Condensed", ${developmentFontFallback}, sans-serif;
+    font-family: "Roboto Condensed", ${developmentFontFallback} sans-serif;
     font-style: italic;
     font-weight: 700;
   }
