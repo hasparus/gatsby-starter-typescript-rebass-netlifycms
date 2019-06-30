@@ -1,3 +1,5 @@
+_fork of https://github.com/damassi/gatsby-starter-typescript-rebass-netlifycms_
+
 # Barebones Gatsby Starter
 
 - [TypeScript](https://www.typescriptlang.org/)
