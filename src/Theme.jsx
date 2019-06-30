@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const developmentFontFallback =
-  process.env.NODE_ENV === "development" ? "'Comic Sans MS'" : "";
+  process.env.NODE_ENV === "development" ? "'Comic Sans MS'," : "";
 
 export const theme = {
   // TODO: https://rebassjs.org/theming
@@ -45,7 +45,7 @@ export const theme = {
 const CascadeTheme = styled.div`
   height: 100%;
 
-  font-family: "Roboto Mono", ${developmentFontFallback}, monospace;
+  font-family: "Roboto Mono", ${developmentFontFallback} monospace;
   background-color: var(--dark);
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAKCAYAAAB8OZQwAAAAOUlEQVQImWMwNjb+z87E8J+dieE/AwMUIwvAJWCCKKrRBdiZoIIwDlwSXdDY2BjTTNza4W5DxZiCAE/cNAaKEuVmAAAAAElFTkSuQmCC)
     repeat;

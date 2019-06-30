@@ -25,6 +25,8 @@ if (isDevelopment) {
 // Custom components need refs for validation and thus must be a class.
 // Additionally, after <Theme>, only one child is allowed.
 // See https://github.com/netlify/netlify-cms/issues/1346
+//
+// TODO: Won't forwardRef work?
 
 class MDXWidget extends Component {
   render() {
