@@ -46,6 +46,7 @@
     "@types/lodash": "^4.14.120",
     "@types/react": "^16.7.20",
     "@types/react-dom": "^16.0.11",
+    "@types/react-helmet": "^5.0.9",
     "@types/rebass": "^0.3.4",
     "@types/styled-components": "^4.1.6",
     "@typescript-eslint/eslint-plugin": "^1.1.0",
